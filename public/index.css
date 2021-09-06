@@ -1,0 +1,13 @@
+#call {
+  cursor: pointer;
+}
+#call:hover {
+  background: rgb(255, 0, 0);
+}
+
+.user-item {
+  cursor: pointer;
+}
+.user-item:hover {
+  background: rgb(110, 42, 255);
+}
