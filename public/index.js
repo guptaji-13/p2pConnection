@@ -6,7 +6,7 @@ const peer = new RTCPeerConnection({
   ]
 })
 
-const socket = io('http://localhost:3000')
+const socket = io.connect()
 
 const onSocketConnected = async () => {
   const constraints = {

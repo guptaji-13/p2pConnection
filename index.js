@@ -9,7 +9,9 @@ const __dirname = dirname(__filename)
 
 const app = express()
 const http = createServer(app)
-const io = new Server(http)
+const io = new Server(http, {
+  allowEIO3: true
+})
 
 const port = process.env.PORT || 5000
 
