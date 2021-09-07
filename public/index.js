@@ -1,12 +1,7 @@
 const peer = new RTCPeerConnection({
   iceServers: [
     {
-      urls: 'stun:stun.stunprotocol.org'
-    },
-    {
-      url: 'turn:192.158.29.39:3478?transport=udp',
-      credential: 'JZEOEt2V3Qb0y27GRntt2u2PAYA=',
-      username: '28224511:1379330808'
+      urls: 'stun:stun2.l.google.com:19302'
     }
   ]
 })
